@@ -11,13 +11,40 @@ html {
 }
 body {
   margin: 0;
-  background-color: #000;
+  
 }
+
+  
+
+
 .footer{
   margin: auto;
-  background-color: #66afe9;
+  background-color: #db0101;
+}
+.div{
+  margin: auto;
+  background: #000;
+  width: 50%;
+  height: 50%;
+}
+.h3{
+  margin: 20px;
+  font-size: 50%;
+  font-weight: 900;
+  width: auto;
+}
+.a{
+  margin: auto;
+font: optional;
+font-size: 20% 30%;
+font-weight: 800;
 }
 article,
+h1,
+h3,
+a,
+p,
+div,
 aside,
 details,
 figcaption,
