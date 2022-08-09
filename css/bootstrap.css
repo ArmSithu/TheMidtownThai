@@ -11,6 +11,11 @@ html {
 }
 body {
   margin: 0;
+  background-color: #000;
+}
+.footer{
+  margin: auto;
+  background-color: #66afe9;
 }
 article,
 aside,
@@ -43,7 +48,7 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  background-color: #101010;
 }
 a:active,
 a:hover {
