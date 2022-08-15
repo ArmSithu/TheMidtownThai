@@ -21,41 +21,12 @@ body {
 }
   
 
-
-.footer{
-  margin: auto;
-  background-color: #db0101;
-}
-.div{
-  margin: auto;
-  background: rgb(216, 2, 2);
-  width: 100%;
-  height: 100%;
-}
-.h3{
-  margin: 20px;
-  font-size: 50%;
-  font-weight: 900;
-  width: auto;
-}
-.a{
-  margin: auto;
-font: optional;
-font-size: 20% 30%;
-font-weight: 800;
-}
 article,
-h1,
-h3,
-a,
-p,
-div,
 aside,
 details,
 figcaption,
 figure,
 footer,
-header,
 hgroup,
 main,
 menu,
@@ -80,7 +51,7 @@ template {
   display: none;
 }
 a {
-  background-color: #101010;
+  background-color:0;
 }
 a:active,
 a:hover {
