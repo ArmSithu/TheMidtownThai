@@ -292,26 +292,24 @@ nav .content .links{
     border-radius: 5px!important;
   }
 }
-
-@media screen and (max-width: 400px){
-  .wrapper nav{
-    padding: 0 10px;
-  }
-  .content .logo a{
-    font-size: 27px;
-  }
-  .wrapper .search-box{
-    max-width: calc(100% - 70px);
-  }
-  .wrapper .search-box .go-icon{
-    width: 30px;
-    right: 0;
-  }
-  .wrapper .search-box input{
-    padding-right: 30px;
-  }
+.main{
+  margin-left: 0;
+  margin-right: 0;
+  justify-content:initial;
+  align-items: auto;
+  margin-top: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+  column-gap: 10px;
+  row-gap: 10px;
 }
-
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: 100%;
+  object-position: 100%;
+}
 .dummy-text{
   position: absolute;
   top: 50%;
@@ -329,7 +327,7 @@ nav .content .links{
 .homeimg{
   margin: 0;
   width: 100%;
-  height: 0 auto;
+  height: auto;
 }
 .welcome{
   font-size:larger;
