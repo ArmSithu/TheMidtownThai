@@ -334,9 +334,15 @@ nav .content .links{
 .welcome{
   font-size:larger;
   font-weight: 500;
-  font-style:normal;
-  background-color: green;
-  color:wheat;
+  font-style:italic;
+  background-color:white;
+  color:brown;
+}
+.aboutimg{
+ margin: 0.5rem;
+ top: 2.5rem;
+ width: 100%;
+ height: auto;
 }
 
 
